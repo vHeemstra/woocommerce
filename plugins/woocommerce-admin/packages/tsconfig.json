@@ -1,0 +1,25 @@
+{
+	"compilerOptions": {
+		"target": "es2019",
+		"module": "esnext",
+		"moduleResolution": "node",
+		"allowJs": true,
+		"strict": true,
+		"esModuleInterop": true,
+		"skipLibCheck": true,
+		"jsx": "react",
+		"jsxFactory": "createElement",
+		"jsxFragmentFactory": "Fragment",
+		"incremental": true
+	},
+	"exclude": [
+		"node_modules",
+		"**/stories",
+		"**/build",
+		"**/build-module",
+		"**/build-types",
+		"**/test/*",
+		"**/jest.config.js",
+		"**/webpack.*.js"
+	]
+}
